@@ -1,0 +1,22 @@
+# 本机构建配置（含本机 SDK 路径）
+local.properties
+
+# 签名文件与口令（一律留在仓库外）
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+
+# Gradle / 构建产物
+.gradle/
+build/
+app/build/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# 安装包
+*.apk
+*.aab
